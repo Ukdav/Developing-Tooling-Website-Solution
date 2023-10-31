@@ -8,7 +8,7 @@ Our website is designed to provide you with valuable insights, resources, and in
 
 Whether you're a seasoned DevOps professional or just starting on your DevOps journey, we aim to empower you with the knowledge and tools needed to succeed in your continuous integration, continuous delivery, and infrastructure automation endeavors. 
 
-In this project,, I will be introducing the concept of file sharing for multiple servers to share the same web content and also a database for storing data related to the website.
+In this project, I will be introducing the concept of file sharing for multiple servers to share the same web content and also a database for storing data related to the website.
 
 ## Architectural Diagram
 
