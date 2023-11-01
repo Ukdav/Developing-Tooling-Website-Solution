@@ -28,8 +28,8 @@ Create an EC2 instance (Red Hat Enterprise Linux 8 on AWS) on which we will set 
 
 On this server, we attach 2 EBS volumes 10GB each as external storage to our instance and create 3 logical volumes on it through which we will attach mounts from our external web servers.
 
-* 3 logical volumes lv-opt, lv-apps and lv-logs
-* 3 mount directory /mnt/opt, /mnt/apps and /mnt/logs
+* 3 logical volumes *lv-opt*, *lv-apps* and *lv-logs*
+* 3 mounts directory */mnt/opt*, */mnt/apps* and */mnt/logs*
 * Webserver content will be stored in /apps, webserver logs in /logs, and /opt will be used by Jenkins
 
 
