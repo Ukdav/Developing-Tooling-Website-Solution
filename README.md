@@ -50,6 +50,15 @@ Install NFS Server, configure it to start on reboot, and make sure it is up and 
 
 ![sudo systemctl status nfs-server service](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/888b707d-7252-468e-adb1-197f88bb0e3a)
 
+Note: In this project, we will be creating our NFS server, web-servers and database server all in the same subnet
+
+Next, we configure NFS to interact with clients present in the same subnet.
+
+We can find the subnet ID and CIDR in the Networking tab of our instances
+
+![subnet cidr](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/beaa9bc6-6259-4b81-8d01-1299e6f3612e)
+
+
 
 
 
