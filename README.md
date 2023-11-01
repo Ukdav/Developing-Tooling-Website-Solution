@@ -58,6 +58,17 @@ We can find the subnet ID and CIDR in the Networking tab of our instances
 
 ![subnet cidr](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/beaa9bc6-6259-4b81-8d01-1299e6f3612e)
 
+* sudo vi /etc/exports
+
+On the vim editor add the lines as seen in the image below
+
+* sudo exportfs -arv
+
+![sudo vi and sudo exporttfs](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/b4d28001-1e58-42f8-8c8f-839f6b1df3ec)
+
+
+
+
 
 
 
