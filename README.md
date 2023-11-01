@@ -64,6 +64,8 @@ On the vim editor add the lines as seen in the image below
 
 * sudo exportfs -arv
 
+Also to check what port is used by NFS so we can open it in security group
+
 ![sudo vi and sudo exporttfs](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/b4d28001-1e58-42f8-8c8f-839f6b1df3ec)
 
 
