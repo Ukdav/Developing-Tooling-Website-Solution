@@ -46,6 +46,14 @@ Install NFS Server, configure it to start on reboot, and make sure it is up and 
 
 ![sudo yum update on nfs server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/318adcf9-e6cc-4520-a5b7-3dcea8fbbba9)
 
+![sudo yum install nfs-utils -y](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/1158b085-ee38-4140-81d4-6201770ef535)
+
+![sudo systemctl status nfs-server service](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/888b707d-7252-468e-adb1-197f88bb0e3a)
+
+
+
+
+
 
 
 
