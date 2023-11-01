@@ -68,6 +68,11 @@ Also to check what port is used by NFS so we can open it in security group
 
 ![sudo vi and sudo exporttfs](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/b4d28001-1e58-42f8-8c8f-839f6b1df3ec)
 
+The following ports are to be open on the NFS server
+
+![nfs server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/7d43a36a-5eb2-43c0-85db-8659e72427e7)
+
+
 
 
 
