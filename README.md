@@ -36,11 +36,13 @@ On this server, we attach 2 EBS volumes 10GB each as external storage to our ins
 
 Steps taken to create logical volumes are shown in the last project
 
-sudo yum -y update
-sudo yum install nfs-utils -y
-sudo systemctl start nfs-server.service
-sudo systemctl enable nfs-server.service
-sudo systemctl status nfs-server.service
+Install NFS Server, configure it to start on reboot, and make sure it is up and running
+
+* sudo yum -y update
+* sudo yum install nfs-utils -y
+* sudo systemctl start nfs-server.service
+* sudo systemctl enable nfs-server.service
+* sudo systemctl status nfs-server.service
 
 
 
