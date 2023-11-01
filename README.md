@@ -32,6 +32,9 @@ On this server, we attach 2 EBS volumes 10GB each as external storage to our ins
 * 3 mounts directory */mnt/opt*, */mnt/apps* and */mnt/logs*
 * Webserver content will be stored in /apps, webserver logs in /logs, and /opt will be used by Jenkins
 
+![lsblk](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/fc7aa4c9-289f-44b8-abc7-956f87988219)
+
+
 
 
 
