@@ -92,6 +92,8 @@ To enter the db environment run
 
 ![create databse on mysql ubuntu server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/9963b98b-3898-4b6b-87ee-2ce470120646)
 
+## Preparing Web Servers
+
 
 
 
