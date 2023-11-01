@@ -72,6 +72,28 @@ The following ports are to be open on the NFS server
 
 ![nfs server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/7d43a36a-5eb2-43c0-85db-8659e72427e7)
 
+## Preparing Database Server
+
+Create an Ubuntu Server on AWS which will serve as our Database. Ensure its in the same subnet as the NFS-Server.
+
+*Install mysql-server*
+
+*sudo apt -y update*
+
+*sudo apt install -y mysql-server*
+
+To enter the db environment run
+
+*sudo mysql*
+
+* Create a database and name it tooling
+* Create a database user and name it webaccess
+* Grant permission to webaccess user on tooling database to do anything only from the webservers subnet cidr
+
+![create databse on mysql ubuntu server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/9963b98b-3898-4b6b-87ee-2ce470120646)
+
+
+
 
 
 
