@@ -106,11 +106,38 @@ A couple of configurations will be done on the web servers:
 
 ![nfs client installation](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/e2be46fc-65c1-4bde-aeda-5c5f7ad9fa4d)
 
-We will be connecting our /var/www directory to our web server with the */mnt/apps* on NFS server. This is achieved by mounting the NFS server directory to the webserver directory:
+We will be connecting our /var/www directory to our web server with the */mnt/apps* on NFS server. This is achieved by mounting the NFS server directory to the webserver directory.
+
+We then need to ensure that our mounts remain intact when the server reboots. This is achieved by configuring the fstab directory.
+*sudo vi /etc/fstab*
+
+Add the following line *172.31.18.60:/mnt/apps /var/www nfs defaults 0 0*
 
 ![webserver1 sudo mkdir varwww](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/91602781-0b1a-4cf4-a3e2-d27112af1b81)
 ![webserver 1 mounting logs](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/56c990fa-8bbb-48ca-8c1e-c86bd9cc0988)
 ![webserver  1 vi config for mount](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/55105d14-1ef2-4b8d-80f6-25a146edc2d9)
+
+## Installing Apache and Php
+
+* sudo yum install httpd -y
+
+* sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+
+* sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+
+* sudo dnf module reset php
+
+* sudo dnf module enable php:remi-7.4
+
+* sudo dnf install php php-opcache php-gd php-curl php-mysqlnd
+
+* sudo systemctl start php-fpm
+
+* sudo systemctl enable php-fpm
+
+* sudo setsebool -P httpd_execmem 1
+
+
 
 
 
