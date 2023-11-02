@@ -139,8 +139,33 @@ Add the following line *172.31.18.60:/mnt/apps /var/www nfs defaults 0 0*
 
 We can see that both /var/www and /mnt/apps contain the same content. This shows that both mount points are connected via NFS.
 
+![webserver 1 create new file](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/b7696cf1-bba8-4885-bce1-677477e6abe8)
 ![nfs server confirming if the created file is existing](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/1f2ebb69-866d-43c4-a3fe-5187bff12fc2)
-![nfs server confirming if the same file exist](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/11c65885-b7e6-427d-9b3c-a4c3392d7b6e)
+
+On the NFS Server, add web content into the */mnt/apps* directory. This should contain a HTML folder. The same content will be present in the */var/www* directory in the web server. Also, fork the tooling source code from Darey.io Github Account to your Github Account.
+
+Run <public_ip_address>/index.php on a web browser to access the site. Use the public_ip_address of the web server. TCP port 80 should be open on the web browser.
+
+![webserver 1 url login interface](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/ef119d31-beda-4f30-9d70-c6341cb5ca88)
+![webserver 1 tooling website](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/c33e15a7-f970-4e56-b10c-ae6d71e82980)
+
+In the */var/www/html* directory , edit the already written PHP script to connect to the database sudo vi /var/www/html/functions.php.
+
+![weberser1 cp into tooling](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/64280946-ec21-4ec9-b2bc-edd1e1cede64)
+
+![webserver mysql tooling config](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/d13b0509-9627-4c36-b3fe-0a15b3ec81b3)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
