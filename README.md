@@ -152,8 +152,31 @@ Run <public_ip_address>/index.php on a web browser to access the site. Use the p
 In the */var/www/html* directory , edit the already written PHP script to connect to the database sudo vi /var/www/html/functions.php.
 
 ![weberser1 cp into tooling](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/64280946-ec21-4ec9-b2bc-edd1e1cede64)
+![webserver config edit connection to db server](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/47fe1e3c-c020-4fbf-bc20-f2ca5b7654d4)
 
-![webserver mysql tooling config](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/d13b0509-9627-4c36-b3fe-0a15b3ec81b3)
+After the modification, connect to the database server from the web server *mysql -h <databse-private-ip> -u <db-username> -p <db-pasword> < tooling-db.sql*
+
+![webserver mysql tooling config](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/da5ad768-a1b2-42d2-a221-365755ff9366)
+
+![show user table](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/5e2ed6e7-d3d4-4916-a2e7-20c4b17615ed)
+
+Simulate a sign-up process by manually adding user credentials to the database
+
+![dbserver insert into](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/10033db4-5fc4-4112-871e-9fcc2c4f57b8)
+
+Login by running the following on the browser <public_ip_address>/login.php.
+
+![web logged in](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/9db1059f-2ce5-4c36-be3c-f27ea7de2784)
+
+In summary, developing tooling for a website solution is an integral part of modern web development. It aims to improve development efficiency, code quality, and the overall user experience. By leveraging the right set of tools and automation, web development teams can deliver high-quality websites and applications more effectively.
+
+
+
+
+
+
+
+
 
 
 
