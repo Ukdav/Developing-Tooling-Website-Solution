@@ -108,6 +108,7 @@ A couple of configurations will be done on the web servers:
 
 We will be connecting our /var/www directory to our web server with the */mnt/apps* on NFS server. This is achieved by mounting the NFS server directory to the webserver directory:
 
+![webserver1 sudo mkdir varwww](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/91602781-0b1a-4cf4-a3e2-d27112af1b81)
 ![webserver 1 mounting logs](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/56c990fa-8bbb-48ca-8c1e-c86bd9cc0988)
 ![webserver  1 vi config for mount](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/55105d14-1ef2-4b8d-80f6-25a146edc2d9)
 
