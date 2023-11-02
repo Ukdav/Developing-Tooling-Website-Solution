@@ -137,6 +137,13 @@ Add the following line *172.31.18.60:/mnt/apps /var/www nfs defaults 0 0*
 
 * sudo setsebool -P httpd_execmem 1
 
+We can see that both /var/www and /mnt/apps contain the same content. This shows that both mount points are connected via NFS.
+
+![nfs server confirming if the created file is existing](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/1f2ebb69-866d-43c4-a3fe-5187bff12fc2)
+![nfs server confirming if the same file exist](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/11c65885-b7e6-427d-9b3c-a4c3392d7b6e)
+
+
+
 
 
 
