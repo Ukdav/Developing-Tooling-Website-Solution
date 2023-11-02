@@ -168,7 +168,13 @@ Login by running the following on the browser <public_ip_address>/login.php.
 
 ![web logged in](https://github.com/Ukdav/Developing-Tooling-Website-Solution/assets/139593350/9db1059f-2ce5-4c36-be3c-f27ea7de2784)
 
-In summary, developing tooling for a website solution is an integral part of modern web development. It aims to improve development efficiency, code quality, and the overall user experience. By leveraging the right set of tools and automation, web development teams can deliver high-quality websites and applications more effectively.
+In summary, DevOps tooling for a website solution aims to promote collaboration, automation, and best practices throughout the development lifecycle. It accelerates development, enhances deployment reliability, and improves the overall quality and performance of web applications. 
+
+Successful DevOps implementation involves selecting the right tools and tailoring them to the specific needs of your website solution.
+
+
+
+
 
 
 
